@@ -19,6 +19,7 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+// initialize WOW.js
 $(function() {
 	new WOW().init();
 });

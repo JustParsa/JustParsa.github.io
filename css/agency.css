@@ -265,7 +265,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url("../img/Silent Morning.jpg");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -345,7 +345,7 @@ section h3.section-subheading {
     }
 }
 
-.service-heading {
+.about-me-heading {
     margin: 15px 0;
     text-transform: none;
 }
