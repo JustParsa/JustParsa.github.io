@@ -772,6 +772,24 @@ ul.social-buttons li a:active {
     background-color: #fed136;
 }
 
+ul.social-buttons li.social-button-linkedin a:hover,
+ul.social-buttons li.social-button-linkedin a:focus,
+ul.social-buttons li.social-button-linkedin a:active {
+    background-color: #1D87BD;
+}
+
+ul.social-buttons li.social-button-github a:hover,
+ul.social-buttons li.social-button-github a:focus,
+ul.social-buttons li.social-button-github a:active {
+    background-color: #359F33;
+}
+
+ul.social-buttons li.social-button-stackoverflow a:hover,
+ul.social-buttons li.social-button-stackoverflow a:focus,
+ul.social-buttons li.social-button-stackoverflow a:active {
+    background-color: #FC9A24;
+}
+
 .btn:focus,
 .btn:active,
 .btn.active,
