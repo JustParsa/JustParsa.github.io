@@ -1,9 +1,13 @@
 
 
-.resize {
+#about-me .resize {
     width: 300px;
     height: auto;
 }
+
+/*#portfolio .resize {
+    height: 280px;
+}*/
 
 img {
     margin-bottom: 15px !important;
