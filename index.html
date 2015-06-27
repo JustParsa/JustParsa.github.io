@@ -233,7 +233,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Scribbler Robot Project</h4>
-                        <p class="text-muted">Website Design</p>
+                        <p class="text-muted">Traversing a maze</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -247,7 +247,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Text Based Adventure Game</h4>
-                        <p class="text-muted">includes 6 minigames</p>
+                        <p class="text-muted">Includes 6 minigames</p>
                     </div>
                 </div>
           <!--       <div class="col-md-4 col-sm-6 portfolio-item">
@@ -333,17 +333,27 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <h2>RSA Encryption</h2>
+                           <!--  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt=""> -->
+                            <p>I used Python to implement the famous RSA encryption algorithm. It can encrypt any input with 32 bit up to 2048 bit encryption. Python was actually a very convenient choice for this project due to the relative ease of working with huge numbers (numbers with 100-300 digits) compared with languages like C++.</p>
                             <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                            <ul class="list-inline">
+
+                            <p>The most difficult part of the project was generating huge primes (up to 1024 bit primes!) in a relatively small amount of time. To do this, I would constantly generate random numbers in the necessary bit range and set an upper limit on the maximum number of tries that the program can go through before it's forced to terminate. After every generation of a huge number, I would use the <strong>Rabin-Miller probablistic primality</strong> test to check if the number was (probably) prime or not. I believe this is one of the best and most efficient primality checks.</p>
+
+                            <p>At first thought, it might seem as though randomly generating huge numbers and hoping you hit a prime number is a very bad idea and inefficient, but this method works surprisingly well with Rabin-Miller and very rarely is the program forced to terminate. I think on average it takes 1-3 seconds to generate prime numbers for the maximum (2048 bit) encryption.</p>
+
+                            <p>After encryption, an RSA.txt file is generated or appended if it already exists containing a lot of useful and necessary information for later decryption. An example is show below:</p>
+                            <img class="resize" src="img/RSA.png" alt="RSA.txt cannot be displayed :/" >
+                            <p>The public key is used for encryption and isn't that important but make sure to keep the private key secret!</p>
+                            <p>Curious? Wanna try it? Clone it from <a href="https://github.com/Outlier7/RSA_Encryption">here</a>!</p>
+
+                                <!-- <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p> -->
+                            <!-- <ul class="list-inline">
                                 <li>Date: July 2014</li>
                                 <li>Client: Round Icons</li>
                                 <li>Category: Graphic Design</li>
-                            </ul>
+                            </ul> -->
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
