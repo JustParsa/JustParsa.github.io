@@ -21,6 +21,11 @@
     height: auto;
 }
 
+.portfolio-item .resize {
+    width: auto;
+    height: 270px;
+}
+
 img {
     margin-bottom: 15px !important;
 }
@@ -202,7 +207,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: cursive;
+    font-family: cursive, "Times New Roman", Arial, "Helvetica Neue" ;
     color: #fed136;
 }
 
