@@ -45,8 +45,16 @@ body {
     color: #777;
 }
 
+.text-muted-alt {
+    color: #26415D;
+}
+
 .text-primary {
     color: #fed136;
+}
+
+.text-dark-blue {
+    color: #445669;
 }
 
 p {
@@ -94,6 +102,10 @@ h6 {
 
 .bg-light-gray {
     background-color: #f7f7f7;
+}
+
+.bg-light-gray-alt {
+    background-color: #BCBEC1;
 }
 
 .bg-darkest-gray {
@@ -297,14 +309,14 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url("../img/Silent Morning.jpg");
+    /*background-image: url("../img/Silent Morning.jpg");*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 800px;
+    height: 500px;
     width:auto;
 }
 
@@ -776,11 +788,11 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 50px;
+    line-height: 100px;
     outline: 0;
     color: #fff;
     background-color: #222;
