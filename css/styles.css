@@ -46,7 +46,7 @@ body {
 }
 
 .text-muted-alt {
-    color: #26415D;
+    color: #2C7883;
 }
 
 .text-primary {
@@ -105,7 +105,7 @@ h6 {
 }
 
 .bg-light-gray-alt {
-    background-color: #BCBEC1;
+    background-color: #004445;
 }
 
 .bg-darkest-gray {
@@ -316,13 +316,11 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 500px;
     width:auto;
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 250px;
 }
 
 header .intro-text .intro-lead-in {
@@ -335,7 +333,6 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
@@ -344,8 +341,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 250px;
     }
 
     header .intro-text .intro-lead-in {
@@ -358,7 +354,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
